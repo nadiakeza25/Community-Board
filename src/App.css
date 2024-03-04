@@ -1,0 +1,11 @@
+#root {
+  margin: 0 0;
+  text-align: left;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: white;
+  background-image: url(FootballPicture.jpg) ;
+  background-size: cover; 
+  padding: 1em 0.5em;
+  width: 100%;
+}
+

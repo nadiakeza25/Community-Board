@@ -1,0 +1,69 @@
+body {
+  padding: 0 0;
+  margin: 0 0;
+  
+}
+p{
+  align-items: left;
+}
+th {
+  background-color: rgba(240, 248, 255, 0.247);
+  border-radius: 10px;
+}
+.Calendar{
+  display: grid;
+  background-color: rgba(119, 119, 119, 0.514);
+  border-radius: 10px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
+  box-shadow: 2px 4px 20px rgba(255, 221, 221, 0.336);
+}
+
+table{
+  width: 100%;
+}
+tr { 
+  background-color: rgba(122, 122, 122, 0.308);
+  height: 4em;
+  text-align: center;
+  border-radius: 15px;
+}
+td{
+  border-radius: 10px;
+  min-width:12%;
+}
+td:hover{
+  background-color: rgba(226, 226, 226, 0.363);
+}
+tbody tr{
+  display: flex;
+}
+.body-row{
+  width: 100%;
+}
+.time{
+  background-color: rgba(245, 222, 179, 0.205);
+  width: 10em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.none_row {
+  width: 10em;
+  background-color: inherit;
+}
+.card {
+  padding:1em 0em;
+  align-items: center;  
+  border-radius: 10px;
+  height: 5em;
+  background-color: rgba(209, 209, 209, 0.349);
+}
+.card p{
+  font-size: x-small;
+}
+.card h1{
+  font-size: medium;
+}
